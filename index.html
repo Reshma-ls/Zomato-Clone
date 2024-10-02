@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <!-- logo top -->
+    <link rel="icon" href="data:image/png;base64,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">
+    <!-- css link -->
+     <link rel="stylesheet" href="style.css" rel="stylesheet">
+    <!-- for icon of fontawesome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<!-- ...........Header part............. -->
+
+    <header>
+        <nav><!--get app ,investr rtln ,add rest,logn signp-->
+            <div class="applink">
+                <a href="">Get the app</a>
+            </div>
+            
+            <div class="nav-items">
+                <ul><!--unordered list-->
+                    <li><a href="">Investor Relations</a></li>
+                    <li><a href="">Add Restaurants</a></li>
+                    <li><a href="">Log in</a></li>
+                    <li><a href="">Sign up</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- middle part of header -->
+        <div class="centre-part">
+            <img src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png">
+            <h1>Discover the best food & drinks in <span>Mumbai</span></h1>
+            <!-- <span> to apply CSS styles to a specific portion of text-->
+            
+            <div class="search-box">
+                <!-- two parts left nd right -->
+                <div class="left-search">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input type="text" placeholder="Mumbai">
+                </div>
+
+                <div class="right-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search for restaurant,cuisine or a dish">
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+<!-- ...........ORDER PART........... -->
+ <div class="order-section">
+    <div class="order">
+        <div class="card">
+            <a href=""><img src=https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*></a>
+        
+            <div class="content">
+                <p class="heading">Order Online</p>
+                <p class="text">Stay home and order to your doorstep.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href=""><img src=https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*></a>
+        
+            <div class="content">
+                <p class="heading">Dining</p>
+                <p class="text">View the city's favourite dining venues</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href=""><img src="https://b.zmtcdn.com/data/o2_assets/371de657644f1b5818fcb5d83387c8c91722851940.png?output-format=webp&fit=around|402:360&crop=402:360;*,*"></a>
+            <div class="content">
+                <p class="heading">Live Events</p>
+                <p class="text">Discover India's best events and concerts</p>
+            </div>
+        </div>
+
+    </div>
+ </div>
+ 
+
+<!-- ...........Collection PART........... -->
+<div class="collections">
+    <h1>Collections</h1>
+    <div class="text-container">
+        <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Mumbai, based on trends</p>
+        <a href=""><span>All collections in Mumbai</span></a>
+    </div>
+
+    <div class="collection-card">
+
+        <div class="card">
+            <img src="https://b.zmtcdn.com/data/collections/6922d49fb675d0490edb652abf5ca45f_1727171294.png?output-format=webp" alt="">
+            <div class="content">
+                <p>Newly Opened Places</p>
+                <p>38 places</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://b.zmtcdn.com/data/collections/edd5abbddd239a8cfb8099c63b1baaf0_1675247359.jpg?output-format=webp" alt="">
+            <div class="content">
+                <p>Top Trending Spots</p>
+                <p>37 places</p>
+             </div>
+        </div>
+
+        <div class="card">
+            <img src="https://b.zmtcdn.com/data/collections/fbd237478a5d3b6ea08de83c30230cdd_1709811065.png?output-format=webp" alt="">
+            <div class="content">
+                <p>Best Insta-Worthy Places</p>
+                <p>26 places</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://b.zmtcdn.com/data/collections/2b9361aa328a43b08986f77bbec280bd_1709811922.png?output-format=webp" alt="">
+            <div class="content">
+                <p>Top Best Rooftop Places</p>
+                <p>30 places</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- ------------------POPULAR LOCATION------------------ -->
+<div class="popular">
+    <h1><span>Popular localities in and around </span>Mumbai</h1>
+
+    <div class="popular-location">
+        <div class="box">
+            <div class="places">
+                    <a href="">
+                        <p class="city">Lower Parel</p>
+                        <p class="places">476 places</p>
+                    </a>
+            </div>
+        <i class="fa-solid fa-angle-right"></i><!--frm fontawesome-->
+        </div>
+
+    
+
+
+        <div class="box">
+            <div class="places">
+                    <a href="">
+                        <p class="city">Malad West</p>
+                        <p class="places">943 places</p>
+                    </a>
+            </div>
+        <i class="fa-solid fa-angle-right"></i><!--frm fontawesome-->
+        </div>
+
+    
+
+        <div class="box">
+            <div class="places">
+                    <a href="">
+                        <p class="places"><span>See More</span></p>  
+                    </a>
+            </div>
+        <i class="fa-solid fa-angle-down"></i><!--frm fontawesome-->
+        </div>
+    </div>
+</div>
+
+
+ <!-- ----------App SECTION----------- -->
+
+<div class="app-section">
+    <div class="app">
+        <div class="app-image">
+            <img src="https://b.zmtcdn.com/data/o2_assets/ce5bc038a8a2d4f8f24465c8826182af1726501431.png" alt="">
+        </div>
+
+        <div class="get-app">
+            <h2>Get the Zomato app</h2>
+            <p>We will send you a link, open it on your phone to download the app</p>
+            <div class="email-phone">
+                <input type="radio" checked>Email
+                <input type="radio">Phone
+            </div>
+            <div class="submit">
+                <input type="text" placeholder="Email">
+                <button>Share App Link</button>
+                <p>Download app from</p>
+            </div>
+
+            <div class="app-store">
+                <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="">
+                <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------EXPLOPRE PART---------- -->
+ <div class="collections">
+    <h1>Explore options near me</h1>
+
+    <div class="option">
+        <button>Popular cuisines near me</button>
+        <i class="fa-solid fa-angle-down"></i><!--frm fontawesome-->
+    </div>
+
+    
+    
+ </div>
+
+ <!-- -------Footer Section -->
+
+<div class="footer">
+    <div class="container">
+        <div class="footer-top">
+           <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&crop=198:42;*,*" alt="">
+           <div class="footer-button">
+              <button>India</button>
+              <button>English</button>
+           </div>
+        </div>
+        <div class="footer-links">
+            <div class="column">
+             <div>ABOUT ZOMATO</div>
+                <ul class="col-links">
+                    <li><a href="">Who We Are</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Work With Us</a></li>
+                    <li><a href="">Investor Relations</a></li>
+                    <li><a href="">Report Fraud</a></li>
+                    <li><a href="">Press Kit</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+                </div>
+
+            <div class="column">
+             <div>ZOMAVERSE</div>
+                <ul class="col-links">
+                    <li><a href="">Zomato</a></li>
+                    <li><a href="">Blinkit</a></li>
+                    <li><a href="">Feeding India</a></li>
+                    <li><a href="">Hyperpure</a></li>
+                    <li><a href="">Zomato Live</a></li>
+                    <li><a href="">Zomaland</a></li>
+                    <li><a href="">Weather Union</a></li>
+                </ul>
+            </div>
+
+            <div class="column">
+             <div>FOR RESTAURANTS</div>
+                <ul class="col-links">
+                    <li><a href="">Partner With Us</a></li>
+                    <li><a href="">Apps For You</a></li>
+                </ul>
+            </div>
+
+            <div class="column">
+                <div>LEARN MORE</div>
+                <ul class="col-links">
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Security</a></li>
+                    <li><a href="">Terms</a></li>
+                    <li><a href="">Sitemap</a></li>
+                </ul>
+            </div>
+
+            <div class="column">
+                <div>SOCIAL LINKS</div>
+                <ul class="col-links">
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i> </a>
+                    <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+
+                    <li><img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt=""></li>
+                    <li><img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt=""></li>
+                </ul>
+            
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 © Zomato™ Ltd. All rights reserved.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
